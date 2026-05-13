@@ -1,0 +1,26 @@
+[project]
+authors = [{name = "Clement Sebastiao", email = "clement.sebastiao@gmail.com"}]
+dependencies = []
+name = "continuity_cities"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["osx-64"]
+
+[tool.pixi.pypi-dependencies]
+continuity_cities = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+jupyter = ">=1.1.1,<2"
+osmnx = ">=2.1.0,<3"
+momepy = ">=0.11.0,<0.12"
+pre-commit = ">=4.6.0,<5"
+neatnet = ">=0.1.6,<0.2"
