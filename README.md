@@ -1,10 +1,16 @@
-The purpose of this template is to be a foundation for creating a new research project, specifically for data/network science research in the [NERDS research group](https://nerds.itu.dk/) - but feel free to use it in any way. The template comes with a basic folder structure and a workflow adapted for programming using Python.
+# TODO
 
-⚠️ **Read [TEMPLATE.md](TEMPLATE.md) to know how to use the template** ⚠️
+- Put code in Github, and put this list as an issue
+- Look into bug for spacing / missed key for connectivity versus stroke_connectivity
+- Look into 10 cities for now:
+	- Copenhagen, Denmark
+	- Vienna, Austria
+	- Besançon, France
+	- Washington D.C., USA
+	- Paris, France
+	- ...
 
-***
-
-# PROJECTNAME
+# Continuity graph
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
